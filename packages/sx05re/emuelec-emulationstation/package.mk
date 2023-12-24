@@ -99,12 +99,12 @@ makeinstall_target() {
 
 # Remove unused cores
 CORESFILE="${INSTALL}/usr/config/emulationstation/es_systems.cfg"
-
+#removidos yabasanshiroSA yabasanshiro
 if [ "${DEVICE}" != "Amlogic-ng" ]; then
     if [[ ${DEVICE} == "OdroidGoAdvance" || "$DEVICE" == "GameForce" ]]; then
         remove_cores="mesen-s quicknes mame2016 mesen"
     elif [ "${DEVICE}" == "Amlogic-old" ]; then
-        remove_cores="mesen-s quicknes mame2016 mesen yabasanshiroSA yabasanshiro"
+        remove_cores="mesen-s quicknes mame2016 mesen"
         xmlstarlet ed -L -P -d "/systemList/system[name='saturn']" ${CORESFILE}
         xmlstarlet ed -L -P -d "/systemList/system[name='phillips-cdi']" ${CORESFILE}
         xmlstarlet ed -L -P -d "/systemList/system/emulators/emulator[@name='Duckstation']" ${CORESFILE}
