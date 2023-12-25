@@ -11,16 +11,16 @@
 
 # Welcome Message for e.g. SSH Server (up to 5 Lines)
   GREETING0="##############################################"
-  GREETING1="#                 EmuELEC                    #"
+  GREETING1="#           LZ-RETRO-STUDIOS-2024            #"
   GREETING2="#     Retro emulation for Amlogic Devices    #"
   GREETING3="#             Based on CoreELEC              #"
   GREETING4="##############################################"
 
 # Root password to integrate in the target system
-  ROOT_PASSWORD="emuelec"
+  ROOT_PASSWORD="lz2024"
 
 # Partition labels for USB/SD installation media
-  DISTRO_BOOTLABEL="EMUELEC"
+  DISTRO_BOOTLABEL="LZGAMES"
   DISTRO_DISKLABEL="STORAGE"
 
 

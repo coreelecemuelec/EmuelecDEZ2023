@@ -2,12 +2,12 @@
 # Copyright (C) 2019-present Shanti Gilbert (https://github.com/shantigilbert)
 
 PKG_NAME="emuelec-emulationstation"
-PKG_VERSION="a70313633ef29b57e287efaeb6dfa7967684969b"
+PKG_VERSION="232e540"
 PKG_GIT_CLONE_BRANCH="EmuELEC"
 PKG_REV="1"
 PKG_ARCH="any"
 PKG_LICENSE="GPL"
-PKG_SITE="https://github.com/EmuELEC/emuelec-emulationstation"
+PKG_SITE="https://github.com/coreelecemuelec/Emuelec-emulationstation-4.6"
 PKG_URL="$PKG_SITE.git"
 PKG_DEPENDS_TARGET="toolchain SDL2 freetype curl freeimage vlc bash rapidjson ${OPENGLES} SDL2_mixer fping p7zip"
 PKG_SECTION="emuelec"
@@ -17,7 +17,7 @@ PKG_BUILD_FLAGS="-gold"
 GET_HANDLER_SUPPORT="git"
 
 # themes for Emulationstation
-PKG_DEPENDS_TARGET="$PKG_DEPENDS_TARGET Crystal"
+PKG_DEPENDS_TARGET="$PKG_DEPENDS_TARGET LZ-PS4-2024-STATIONS-RETRO-STICK"
 
 pre_configure_target() {
 PKG_CMAKE_OPTS_TARGET=" -DENABLE_EMUELEC=1 -DDISABLE_KODI=1 -DENABLE_FILEMANAGER=1 -DGLES2=1"
