@@ -2,7 +2,7 @@
 # Copyright (C) 2019-present Shanti Gilbert (https://github.com/shantigilbert)
 
 PKG_NAME="LZ-PS4-2024-STATIONS-RETRO-STICK"
-PKG_VERSION="fb52f48"
+PKG_VERSION="2f4cf6c"
 PKG_REV="1"
 PKG_ARCH="any"
 PKG_LICENSE="GPL"
