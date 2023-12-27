@@ -20,7 +20,7 @@
   ROOT_PASSWORD="lz2024"
 
 # Partition labels for USB/SD installation media
-  DISTRO_BOOTLABEL="LZGAMES"
+  DISTRO_BOOTLABEL="EMUELEC"
   DISTRO_DISKLABEL="STORAGE"
 
 
@@ -338,6 +338,7 @@ uzem \
 vba-next \
 vbam \
 vecx \
+yabasanshiro \
 vice"
 
 LIBRETRO_EXTRA_CORES="chailove \
